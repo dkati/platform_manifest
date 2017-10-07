@@ -55,4 +55,15 @@
   <project path="vendor/qcom-opensource/cryptfs_hw" name="AOSP-JF-MM/platform_vendor_qcom_opensource_cryptfs_hw" remote="github" revision="aosp-8.0-test" />
   <project path="vendor/qcom-opensource/interfaces" name="AOSP-JF-MM/platform_vendor_qcom_opensource_interfaces" remote="github" revision="aosp-8.0-test" />
 
+  <!--Cheeseburger repos-->
+  <project path="device/oneplus/cheeseburger" name="dkati/android_device_oneplus_cheeseburger" remote="github" revision="aosp-8.0-test"/>
+  <project path="kernel/oneplus/msm8998" path="LineageOS/android_kernel_oneplus_msm8998" remote="github" revision="lineage-15.0" />
+  <project name="palmrom/proprietary_vendor_oneplus" path="vendor/oneplus" remote="github" revision="opt-cm-14.1" />
+  <project name="LineageOS/android_device_oppo_common" path="device/oppo/common" remote="github" revision="lineage-15.0" />
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_frameworks" path="vendor/nxp-nfc/opensource/frameworks" revision="lineage-15.0" remote="github" />
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_libnfc-nci" path="vendor/nxp-nfc/opensource/libnfc-nci" revision="lineage-15.0" remote="github" />
+  <project name="LineageOS/android_vendor_nxp-nfc_opensource_Nfc" path="vendor/nxp-nfc/opensource/Nfc" revision="lineage-15.0" remote="github" />
+  <project name="LineageOS/android_device_qcom_common" path="device/qcom/common" remote="github" revision="lineage-15.0" />
+ 
+  
 </manifest>
